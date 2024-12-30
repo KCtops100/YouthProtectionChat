@@ -1,0 +1,13 @@
+name: YouthProtectionChat
+version: '1.0.0'
+main: me.kctops.youthProtectionChat.YouthProtectionChat
+api-version: '1.21'
+commands:
+  setrole:
+    description: Set the role of a player
+  listyouth:
+    description: List players with the 'youth' role
+  listadults:
+    description: List players with the 'adult' role
+  listnotassigned:
+    description: List players with no role assigned
